@@ -16,9 +16,9 @@ $ git remote add origin urlcopiada //a urlcopiada será a mesma de onde está o 
 
 $ git push //ao rodar, irá aparecer --set-upstream origin master, basta copiar e colar no comando, isso irá adicionar o código à branch master 
 
-$ git 
+$ git reflog //imprime o histórico dos versionamentos, o número no início seria o ID do versionamento
 
-$ git
+$ git reset --hard id_da_versão //retorna a uma versão anterior
 
 $ git
 
