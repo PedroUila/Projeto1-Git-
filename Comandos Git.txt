@@ -1,3 +1,5 @@
+
+
 $ git init //inicializa um bash do git na pasta
  
 $ git status //verifica arquivos adds e não adds no controle de versão
@@ -10,11 +12,11 @@ $ git config --global user.email "seu e-mail" //relaciona o email do github ao a
 
 $ git config --global user.name "seu nome" //relaciona o seu nome ao arquivo salvo no git
 
-$ git remote add origin urlcopiada //define para onde o código irá ser enviado
+$ git remote add origin urlcopiada //a urlcopiada será a mesma de onde está o seu repositório, isso define para onde o código irá ser enviado
 
-$ git
+$ git push //ao rodar, irá aparecer --set-upstream origin master, basta copiar e colar no comando, isso irá adicionar o código à branch master 
 
-$ git
+$ git 
 
 $ git
 
