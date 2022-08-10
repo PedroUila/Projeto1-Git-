@@ -1,0 +1,31 @@
+$ git init //inicializa um bash do git na pasta
+ 
+$ git status //verifica arquivos adds e não adds no controle de versão
+
+$ git add "nome do arquivo.extensão do arquivo" //adiciona um arquivo pendente ao controle de versão
+
+$ git commit -m "mensagem" //adiciona um comentário à commit
+
+$ git config --global user.email "seu e-mail" //relaciona o email do github ao arquivo do git
+
+$ git config --global user.name "seu nome" //relaciona o seu nome ao arquivo salvo no git
+
+$ git remote add origin urlcopiada //define para onde o código irá ser enviado
+
+$ git
+
+$ git
+
+$ git
+
+$ git
+
+$ git
+
+$ git
+
+$ git
+
+$ git
+
+$ git
