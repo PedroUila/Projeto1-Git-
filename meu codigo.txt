@@ -1,1 +1,5 @@
-Testando o merge sem inserir *-m "mensagem"* depois da branch
+fazendo testes!
+
+Merge sem o bloco de notas aberto!
+
+Tentativa de correção do problema em que aparece opções para continuação do merge (não normal)
