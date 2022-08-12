@@ -1,5 +1,5 @@
-fazendo testes!
+fazendo testes! *Atualização!*
 
-Merge sem o bloco de notas aberto!
+Aparentemente, o problema não estaria ocorrendo por causa do bloco de notas ou do adm de arquivos.
 
-Tentativa de correção do problema em que aparece opções para continuação do merge (não normal)
+Consegui sair da tela e dar merge utilizando comandos especiais (digite :h para verificar os comandos)
