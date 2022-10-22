@@ -1,0 +1,5 @@
+fazendo testes! *Atualização!*
+
+Aparentemente, o problema não estaria ocorrendo por causa do bloco de notas ou do adm de arquivos.
+
+Consegui sair da tela e dar merge utilizando comandos especiais (digite :h para verificar os comandos)

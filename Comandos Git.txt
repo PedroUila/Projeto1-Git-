@@ -1,0 +1,62 @@
+$ git init //inicializa um bash do git na pasta
+ 
+$ git status //verifica arquivos adds e não adds no controle de versão
+
+$ git add "nome do arquivo.extensão do arquivo" //adiciona um arquivo pendente ao controle de versão
+
+$ git commit -m "mensagem" //adiciona um comentário à commit
+
+$ git config --global user.email "seu e-mail" //relaciona o email do github ao arquivo do git
+
+$ git config --global user.name "seu nome" //relaciona o seu nome ao arquivo salvo no git
+
+$ git remote add origin urlcopiada //a urlcopiada será a mesma de onde está o seu repositório, isso define para onde o código irá ser enviado
+
+$ git push //ao rodar, irá aparecer --set-upstream origin *nome-da-branch*, basta copiar e colar no comando //irá adicionar o código na nuvem (github) 
+
+$ git reflog //imprime o histórico dos versionamentos, o número no início seria o ID do versionamento
+
+$ git reset --hard id_da_versão //retorna a uma versão anterior
+
+$ git branch //mostra as branchs existentes // a branch selecionada estará verde
+
+$ git branch nome-da-nova-branch //adiciona uma nova branch
+
+$ git checkout nome-da-branch //altera a branch para a especificada //ao dar push irá aparecer *git push --set-upstream origin *nome-da-branch**, basta colar esse código 
+
+$ git merge *nome-da-branch-a-ser-mesclada* //mescla as atualizações feitas em outra branch //é necessário estar na branch que receberá a mesclagem 
+
+
+***********************************************************************
+*ATENÇÃO* 
+ANTES DE DAR MERGE, ENTRE NA BRANCH PRINCIPAL E RODE O COMANDO:
+
+$ git pull
+
+IRÁ TRAZER AS ATUALIZAÇÕES DO SERVIDOR PARA A SUA MÁQUINA, EVITANDO QUE FAÇA MERGE EM ARQUIVOS NÃO ATUALIZADOS NA SUA MÁQUINA LOCAL
+
+
+### A SEQUÊNCIA PARA MELHOR FUNCIONALIDADE DO MERGE SERIA: ###
+$ git pull branch_principal //puxa os dados mais atualizados do servidor
+$ git branch nome_da_branch_nova //cria a nova branch
+$ git checkout nome_branch_nova //altera para a branch nova
+TRABALHAR NAS INFORMAÇÕES DA NOVA BRANCH
+FINALIZAR O TRABALHO NA BRANCH NOVA
+$ git checkout branch_principal //altera para a branch principal
+$ git merge nome_da_branch_nova //unir as informações da branch nova à branch principal
+
+****************************************************************************
+
+$ git
+
+$ git
+
+$ git
+
+$ git
+
+$ git
+
+$ git
+
+$ git
