@@ -1,3 +1,5 @@
+TESTE
+
 $ git init //inicializa um bash do git na pasta
  
 $ git status //verifica arquivos adds e não adds no controle de versão
